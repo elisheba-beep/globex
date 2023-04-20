@@ -1,0 +1,55 @@
+$mobile: "670px";
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 57px;
+  overflow: scroll;
+  
+&::-webkit-scrollbar{
+  display: none;
+}
+  @media screen and (max-width: $mobile) {
+    display: block;
+    width: 200px;
+    margin: auto;
+  }
+
+}
+
+.service {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  text-align: center;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  color: #272727;
+  padding: 18px 29px;
+  gap: 16px;
+  min-width: 200px;
+  &:hover {
+    transform: scale(1.05);
+  }
+  @media screen and (max-width: $mobile) {
+    padding: 10px;
+    gap: 5px;
+    margin: 10px auto;
+  }
+}
+
+.mainText {
+  font-size: 24px;
+  font-weight: 700;
+  @media screen and (max-width: $mobile) {
+    font-size: 18px;
+  }
+}
+
+.subText {
+  font-size: 18px;
+  font-weight: 400;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 14px;
+  }
+}

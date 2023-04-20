@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 5px;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    padding: 4px 8px;
+  
+}
+
+.tag{
+    color: #272727;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.close{
+    color:  #848484;
+    cursor: pointer;
+    width: 11px;
+    height: 11px;
+}

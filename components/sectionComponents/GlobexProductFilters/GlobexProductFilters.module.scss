@@ -1,0 +1,41 @@
+.container {
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  padding: 31px 22px;
+  height: fit-content;
+  hr {
+    border: 1px solid #f0f0f0;
+  }
+}
+
+.tags {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  span {
+    cursor: pointer;
+  }
+}
+
+.blueText {
+  color: #00398f;
+  cursor: pointer;
+}
+
+.checkboxes {
+  display: grid;
+  gap: 15px;
+}
+
+.section {
+  display: grid;
+  gap: 20px;
+}

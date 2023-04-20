@@ -1,0 +1,76 @@
+$mobile: '670px';
+
+.container {
+  padding: 50px;
+
+  @media screen and (max-width: $mobile){
+    padding: 20px;
+  }
+}
+
+.ordersContainer {
+  padding: 30px 0;
+  display: grid;
+  gap: 80px;
+
+  @media screen and (max-width: $mobile){
+    gap: 20px 0;
+  }
+}
+
+.orderCard {
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  justify-content: space-between;
+  padding: 25px;
+  span {
+    color: #848484;
+  }
+
+  @media screen and (max-width: $mobile){
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.orderLeft {
+  display: flex;
+  gap: 40px;
+
+  @media screen and (max-width: $mobile){
+    gap: 20px;
+    flex-direction: column;
+  }
+}
+
+.orderInfo {
+  display: grid;
+  grid-auto-flow: row;
+  @media screen and (max-width: $mobile){
+    gap: 20px;
+  }
+}
+
+.orderDate {
+  display: grid;
+  gap: 3px;
+}
+
+.orderButtons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  @media screen and (max-width: $mobile){
+    font-size: 14px;
+  }
+}
+
+.orderDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

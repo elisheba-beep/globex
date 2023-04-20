@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.image {
+  border-radius: 100%;
+}
+
+.userName {
+  color: #646464;
+  font-size: clamp(10px, 14px, 18px);
+  font-weight: 400;
+}

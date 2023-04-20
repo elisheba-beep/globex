@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    display: flex;
+}
+.image{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: clamp(10px, 3vw + 1rem, 100px);
+    display: grid;
+    place-content: center;
+    justify-items: center;
+}

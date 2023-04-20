@@ -1,0 +1,100 @@
+$mobile: '670px';
+
+.container {
+  margin: 50px;
+  
+  @media screen and (max-width: $mobile) {
+ margin: 20px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #272727;
+    line-height: 30px;
+
+    @media screen and (max-width: $mobile) {
+      font-size: 18px;
+      
+  text-align: center;
+    }
+  }
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+  }
+}
+
+
+.bottomDots{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  gap: 20px;
+  button{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: none;
+  }
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  width: 100%;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.brand {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  color: #848484;
+  gap: 5px;
+}
+
+.deals {
+  display: grid;
+  place-content: center;
+  gap: 20px;
+  justify-items: center;
+
+  @media screen and (max-width: $mobile) {  
+    display: block;
+    text-align: center;
+  }
+}
+
+.buttons {
+    margin: 0 50px;
+  position: relative;
+  top: 180px;
+  z-index: 1;
+}
+
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.services{
+    margin: 50px;
+
+    @media screen and (max-width: $mobile) {
+      margin: 10px;
+
+    }
+}

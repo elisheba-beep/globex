@@ -1,0 +1,11 @@
+$mobile: "640px";
+
+.container {
+  width: 100%;
+}
+
+.bottom {
+  @media screen and (max-width: $mobile) {
+    margin-top: 100px;
+  }
+}

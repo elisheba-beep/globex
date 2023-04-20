@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  &::selection {
+    background-color: #c4c4c4;
+  }
+}
+html, body {
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+  &::selection {
+    background-color: #c4c4c4;
+  }
+  
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+  &::selection {
+    background-color: #c4c4c4;
+  }
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+  &::selection {
+    background-color: #c4c4c4;
+  }
+}
+
+blockquote,
+q {
+  quotes: none;
+  &::selection {
+    background-color: #c4c4c4;
+  }
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+  &::selection {
+    background-color: #c4c4c4;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  &::selection {
+    background-color: #c4c4c4;
+  }
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+  &:enabled {
+    outline: none;
+  }
+  &::selection {
+    background-color: #c4c4c4;
+  }
+}
+
+input[type="range"] {
+  background: transparent;
+  cursor: pointer;
+  width: 15rem;
+}
+
+/***** Track Styles *****/
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #c4c4c4;
+  height: 5px;
+  border-radius: 2px;
+}
+
+/******** Firefox ********/
+input[type="range"]::-moz-range-track {
+  background: #c4c4c4;
+  height: 5px;
+  border-radius: 2px;
+}
+
+/***** Thumb Styles *****/
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  margin-top: -5px; /* Centers thumb on the track */
+  background-color: #ffffff;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 100%;
+  border: 1px solid #898989;
+}
+button{
+  &::selection {
+    background-color: #c4c4c4;
+  }
+}

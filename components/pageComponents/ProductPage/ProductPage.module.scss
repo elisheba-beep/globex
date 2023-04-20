@@ -1,0 +1,54 @@
+$mobile: "640px";
+
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  margin: clamp(20px, 35px, 50px);
+  gap: 50px;
+
+}
+
+.sorting {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-end;
+  span {
+    cursor: pointer;
+  }
+}
+.brand {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  color: #848484;
+  gap: 5px;
+}
+
+.products {
+  display: grid;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  gap: 10px;
+
+  @media screen and (max-width: $mobile) {
+    white-space: normal;
+    gap: 5px;
+    display: block;
+    text-align: center;
+  }
+}
+
+.sort {
+  position: relative;
+}

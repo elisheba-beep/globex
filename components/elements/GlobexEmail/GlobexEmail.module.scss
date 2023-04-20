@@ -1,0 +1,26 @@
+.container{
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: clamp(5px, 8px, 10px);
+    border-radius: 2px;
+}
+
+.icon{
+    margin-top: 3px;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+.input{
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: transparent;
+    color: #ABABAB;
+}

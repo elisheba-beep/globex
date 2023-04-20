@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  padding: 15px 50px;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #272727;
+}
+
+.blueText {
+  color: #00398f;
+  font-size: 18px;
+  font-weight: 400;
+  &:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+.close {
+  position: absolute;
+  right: 50px;
+  color: #848484;
+  width: 30px;
+  height: 30px;
+  &:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+}

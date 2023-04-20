@@ -1,0 +1,40 @@
+$mobile: "670px";
+
+.container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  @media screen and (max-width: $mobile) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.newPrice {
+  font-size: 24px;
+  font-weight: 700px;
+  color: #272727;
+  @media screen and (max-width: $mobile) {
+    font-size: 18px;
+  }
+}
+
+.oldPrice {
+  font-size: 18px;
+  font-weight: 400;
+  color: #848484;
+  text-decoration: line-through;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 14px;
+  }
+}
+
+.discount {
+  font-size: 18px;
+  font-weight: 700;
+  @media screen and (max-width: $mobile) {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   
+}
+
+.checkbox{
+    width: 14px;
+    height: 14px;
+    appearance: checkbox;
+    cursor: pointer;
+   &:checked{
+    accent-color: #848484;
+   }
+}
+.tag {
+  font-size: 18px;
+  font-weight: 400;
+  color: #272727;
+  text-align: center;
+}
+
+.number {
+  color: #848484;
+  font-size: 18px;
+  font-weight: 400;
+}

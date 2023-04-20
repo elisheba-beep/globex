@@ -1,0 +1,81 @@
+$mobile: '670px';
+
+.black {
+  width: fit-content;
+  border: 2px solid #222222;
+  border-radius: 10px;
+  color: #272727;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 23px;
+  background-color: transparent;
+  &:hover {
+    border: 3px solid #222222;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: $mobile){ 
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    font-size: 14px;
+  }
+}
+
+.white {
+  width: fit-content;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 23px;
+  background-color: transparent;
+  &:hover {
+    border: 3px solid #ffffff;
+    cursor: pointer;
+  }
+  @media screen and (max-width: $mobile){ 
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    font-size: 14px;
+  }
+}
+
+.filled {
+  width: fit-content;
+  border: 1px solid #004e49;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 8px 23px;
+  background-color: #002482;
+  &:hover {
+    border: 2px solid #004e49;
+    cursor: pointer;
+  }
+  @media screen and (max-width: $mobile){ 
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    font-size: 14px;
+  }
+}
+
+.round {
+  width: 55px;
+  height: 55px;
+  border: 1px solid #bababa;
+  background-color: transparent;
+  color: #272727;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 30px;
+  position: relative;
+  &:hover {
+    border: 2px solid #bababa;
+    cursor: pointer;
+  }
+}

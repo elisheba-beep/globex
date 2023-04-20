@@ -1,0 +1,69 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    div{
+        width: 100%;
+        height: 100%;
+        min-height: 300px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        &:hover{
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+     
+}
+}
+    
+.container > div:nth-child(1){
+    grid-row: span 2;
+    grid-column:span 2
+}
+.container > div:nth-child(2){
+    grid-column:span 2
+}
+
+.container > div:nth-child(3){
+    grid-column:span 2
+}
+.container > div:nth-child(4){
+    grid-column: span 2
+}
+
+
+.threeCol{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    @media screen and (max-width: 1330px){
+        
+        grid-template-columns: repeat(2, 1fr);
+        }
+        @media screen and (max-width: 1000px){
+        
+            grid-template-columns: repeat(1, 1fr);
+            }
+}
+
+.fourCol{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    @media screen and (max-width: 1360px){
+        gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media screen and (max-width: 1024px){
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        }
+}
+
+.oneCol{
+    display: grid;
+    grid-auto-flow: row;
+    place-content: center;
+}

@@ -1,0 +1,22 @@
+.container{
+    padding: 25px 0;
+    width: 400px;
+    border-left: none;
+    border-right: none;
+    letter-spacing: 5%;
+    font-size: 24px;
+    &:enabled{
+        outline: none;
+    }
+}
+
+.option{
+    background-color: #FFFFFF;
+    color: #000000;
+    border-left: none;
+    border-right: none;
+    &:checked{
+        outline-color: #636363;
+        background-color: #636363;
+    }
+}

@@ -1,0 +1,10 @@
+$mobile: '670px';
+
+.subText{
+    font-size: 48px;
+    font-weight: 700;
+
+    @media screen and (max-width: $mobile){
+        font-size: 30px;
+          }
+}

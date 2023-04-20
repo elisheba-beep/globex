@@ -1,0 +1,43 @@
+$mobile: '670px';
+
+.container {
+  gap: 24px;
+  padding: clamp(10px, 23px, 47px);
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  &:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  
+}
+
+.userImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-size: cover;
+  @media screen and (max-width: $mobile) {
+    width: 80px;
+    height: 80px;
+  }
+  
+}
+
+.rating {
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  align-items: flex-end;
+}
+
+.testimonial {
+  font-size: clamp(14px, 16px, 24px);
+  font-weight: 400;
+  color: #272727;
+  width: clamp(100px, 40vw + 1rem, 700px);
+}
