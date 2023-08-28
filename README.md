@@ -1,6 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Globex
+
+A frontend ecommerce app, powered by Next.js and TypeScript. Enjoy instant loading, seamless navigation and cutting-edge design and code.
 
 First, run the development server:
 
